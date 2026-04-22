@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "agency.Main",
+      "projectName": "newspaper-agency-automation"
+    },
+    {
+      "type": "node-terminal",
+      "name": "Run Newspaper App (Maven)",
+      "request": "launch",
+      "command": "mvn exec:java",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
